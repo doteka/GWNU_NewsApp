@@ -7,22 +7,29 @@ import {
   Pressable,
   StyleSheet,
   Dimensions,
-  Alert
+  Alert,
 } from "react-native";
 import Modal from "./Modal";
 
 const TITLE_MAX_LENGTH = 24;
 const DESC_MAX_LENGTH = 55;
 const NewsList_FlatList = ({ newsData }) => {
-  const [modalView , setModalView ] = useState(false)
-
+  const [modalView, setModalView] = useState(false);
+  const [newsView, setNewsView] = useState();
 
   const _EndReached = () => {
-    console.log("AA")
-  }
+    console.log("AA");
+  };
   return (
-    <SafeAreaView style={{flex: 1, height:'100%'}}>
-      {modalView && <Modal close={()=>{setModalView(false)}}/> }
+    <SafeAreaView style={{ flex: 1, height: "100%" }}>
+      {modalView && (
+        <Modal
+          close={() => {
+            setModalView(false);
+          }}
+          item={newsView}
+        />
+      )}
       <FlatList
         data={newsData}
         renderItem={(newsData) => {
@@ -33,7 +40,8 @@ const NewsList_FlatList = ({ newsData }) => {
                 Styled.newsBox,
               ]}
               onPress={() => {
-                setModalView(true)
+                setModalView(true);
+                setNewsView(newsData.item);
               }}
             >
               <Text style={Styled.newsTitle}>
@@ -54,10 +62,11 @@ const NewsList_FlatList = ({ newsData }) => {
             </Pressable>
           );
         }}
-        onEndReached={()=> {Alert.alert("AAA")} }
+        onEndReached={() => {
+          Alert.alert("AAA");
+        }}
         onEndReachedThreshold={0.8}
-        initialNumToRender = {20}
-
+        initialNumToRender={20}
       ></FlatList>
     </SafeAreaView>
   );

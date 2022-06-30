@@ -1,6 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import { useEffect, useState } from "react";
-import { FlatList, SafeAreaView, StyleSheet, Text, Pressable } from "react-native";
+import {
+  FlatList,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  Pressable,
+} from "react-native";
 import NewsList from "./NewsList";
 import NewsList_FlatList from "./NewsList_FlatList";
 
@@ -24,7 +30,7 @@ const App = () => {
   }, []);
   return (
     <SafeAreaView>
-      <NewsList_FlatList newsData={newsData?.items} />
+      {/* <NewsList_FlatList newsData={newsData?.items} /> */}
 
       {/* {resData?.items.slice(start, end).map((item, index) => {
         return <NewsList key={index} item={item} />;
