@@ -6,6 +6,7 @@ import {
   Dimensions,
   StyleSheet,
   Image,
+  FlatList,
 } from "react-native";
 
 const { width, height } = Dimensions.get("window");
@@ -15,7 +16,15 @@ const Modal = ({ item, close }) => {
   return (
     <SafeAreaView style={styled.View}>
       <Text style={styled.Title}>{item.title}</Text>
-      <Image style={styled.Image} source={{ uri: item.image }} />
+      <FlatList
+       data = {item.image}
+       horizontal
+       renderItem={(items) => {
+        console.log(items)
+        return(<Image style={styled.Image} source={{ uri: items.item }} />)
+       }}
+      />
+       {/* <Image style={styled.Image} source={{ uri: item.image }} /> */}
       <Text style={styled.Desc}>{item.description}</Text>
       <Pressable onPress={close}>
         <Text style={styled.close}>닫기</Text>

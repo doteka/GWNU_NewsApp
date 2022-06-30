@@ -13,7 +13,7 @@ import Modal from "./Modal";
 
 const TITLE_MAX_LENGTH = 24;
 const DESC_MAX_LENGTH = 55;
-const NewsList_FlatList = ({ newsData }) => {
+const NewsList_FlatList = ({ newsData, filter_GWNU, filter_Std, Filter }) => {
   const [modalView, setModalView] = useState(false);
   const [newsView, setNewsView] = useState();
 
@@ -33,6 +33,7 @@ const NewsList_FlatList = ({ newsData }) => {
       <FlatList
         data={newsData}
         renderItem={(newsData) => {
+          if(Filter.includes(newsData.item.type)) {
           return (
             <Pressable
               style={({ pressed }) => [
@@ -60,7 +61,8 @@ const NewsList_FlatList = ({ newsData }) => {
                     }`}
               </Text>
             </Pressable>
-          );
+          )
+                  }
         }}
         onEndReached={() => {
           Alert.alert("AAA");
