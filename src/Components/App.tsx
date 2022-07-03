@@ -17,13 +17,13 @@ const DESC_MAX_LENGTH = 55;
 const App = () => {
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(0);
-  const [newsData, setNewsData] = useState();
+  const [newsData, setNewsData] = useState({});
 
   const [Filter, setFilter] = useState(['GWNU', '언론원', '학생회'])
 
-  const resData = require("../../responseData.json");
-  console.log(resData);
-  console.log(resData.items);
+  // const resData = require("../../responseData.json");
+  // console.log(resData);
+  // console.log(resData.items);
 
   useEffect(() => {
     const resData = require("../../responseData.json");
@@ -43,13 +43,14 @@ const App = () => {
   }
   return (
     <SafeAreaView>
+      
       {/* <NewsFilter /> */}
       <NewsList_FlatList newsData={newsData?.items} Filter = {Filter} />
 
-      {/* {resData?.items.slice(start, end).map((item, index) => {
+      {/* {newsData?.items.slice(start, end).map((item, index) => {
         return <NewsList key={index} item={item} />;
       })} */}
-      <Pressable>
+      <Pressable style={{marginTop: 30}}>
         <Text onPress={()=>{_FilterChange("GWNU")}}>GWNU</Text>
         <Text onPress={()=>{_FilterChange("언론원")}}>언론원</Text>
         <Text onPress={()=>{_FilterChange("학생회")}}>학생회</Text>

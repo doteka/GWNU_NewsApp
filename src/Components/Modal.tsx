@@ -26,8 +26,8 @@ const Modal = ({ item, close }) => {
       />
        {/* <Image style={styled.Image} source={{ uri: item.image }} /> */}
       <Text style={styled.Desc}>{item.description}</Text>
-      <Pressable onPress={close}>
-        <Text style={styled.close}>닫기</Text>
+      <Pressable>
+        <Text style={styled.close} onPress={close}>닫기</Text>
       </Pressable>
     </SafeAreaView>
   );
@@ -36,7 +36,7 @@ const Modal = ({ item, close }) => {
 const styled = StyleSheet.create({
   View: {
     flex: 1,
-    zIndex: 3,
+    zIndex: 5,
     elevation: 3,
     height: height,
     width: width,
@@ -63,7 +63,7 @@ const styled = StyleSheet.create({
   },
   close: {
     position: "relative",
-    marginBottom: 1,
+    marginBottom: 30,
     color: "red",
   },
 });

@@ -15,7 +15,7 @@
     {
       "title": "환경조경학과 졸업작품전시회 개최, 6월 7일 ~ 6월 10일까지 강릉시청, 원주시청 전시",
       "description": "우리 대학 환경조경학과(학과장 염정헌)가 지난 6월 7일~8일 강릉시청, 6월 9일~10일 원주시청에서 각각 졸업작품전시회를 개최하였다....",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000011/20220620094459580_WH4T5RIY.jpg",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000011/20220620094459580_WH4T5RIY.jpg"],
       "writer": "대외협력실",
       "date": "2022-06-20 00:00:00",
       "type": "GWNU"
@@ -23,7 +23,7 @@
     {
       "title": "전기공학과 박철원 교수팀, 2022 수력양수발전 학술컨퍼런스 논문상",
       "description": "우리 대학교 과학기술대학 전기공학과 박철원 교수팀은 2022년 6월 9일(목) ~ 6월 10일(금) 제주 휘닉스에서 열린 2022 대한전기학회 수력양수발전 학술컨퍼런스 논문상에서 논문상을 수상했다.\n이경민 박사수료생이 “전력계통의 PSCAD 기반 사고 해석” 논문을 발표하였으며, 함정모 석사과정이 동참한 논문을 박철원 교수가 지도하였다.",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000011/20220620093352244_15UMKWN7.png",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000011/20220620093352244_15UMKWN7.png"],
       "writer": "대외협력실",
       "date": "2022-06-20 00:00:00",
       "type": "학생회"
@@ -31,122 +31,98 @@
     {
       "title": "치위생학과, ‘제77회 구강보건의 날’ 행사 개최",
       "description": "우리 대학 치위생학과(학과장 이효진)가 지난 6월 3일 ‘제77회 구강보건의 날’을 맞아 교내에서 구강건...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220616093451789_QRC1JOE3.png",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220616093451789_QRC1JOE3.png"],
       "writer": "대외협력실",
       "date": "2022-06-16 00:00:00",
       "type": "언론원"
     },
     {
-      "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
-      "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
+      "title": "우리 대학 - 우리바이오(주) “해양 생물 등을 활용한 건강기능식품 소재 개발” 협력 관계 구축을 위한 MOU 체결",
+      "description": "우리 대학과 우리바이오(주)(대표이사 박길수)는 ...",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000012/20220701095319613_EHPBH6EC.png"],
       "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
+    },
+    {
+      "title": "이세계덴탈 강양구 대표, 강원권역장애인구강진료센터에 3백만원 기부",
+      "description": "지난 6월 22일(화) 치과병원 강원권역장애인구강진료센터에서 강릉 소재 이세계덴탈(대...",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000012/20220629152703420_KHIUYOBZ.png"],
+      "writer": "대외협력실",
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
+    },
+    {
+      "title": "해양생명과학과 주성수 교수 연구팀, 야생 미나리로부터 “신규 항바이러스 단백질(OPRP)” 규명",
+      "description": "우리 대학 해양생명과학과 주성수 교수 연구팀은 지난 수년간 야생 미나리(Oenanthe javanica)의 독특한 야생 환경 적응력을...",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000011/OPRP_signaling_pathway_(2)-%EC%88%98%EC%A0%95.jpg"],
+      "writer": "대외협력실",
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
+    },
+    {
+      "title": "간호학과 2021학년도 졸업생, 보건보육사 34명 합격",
+      "description": "간호학과, 2021학년도 졸업생 35명 중 34명이 지난 2월 진행된 제13회 보건교육사 3급 시험에 합격하여 97.1%의 높은 합격률을 기록했다....",
+      "image": [""],
+      "writer": "대외협력실",
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
     },
     {
       "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
       "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png"],
       "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
     },
     {
       "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
       "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png"],
       "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
     },
     {
       "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
       "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png"],
       "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
     },
     {
       "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
       "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png"],
       "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
     },
     {
       "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
       "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png"],
       "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
     },
     {
       "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
       "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png"],
       "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
     },
     {
       "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
       "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
+      "image": ["https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png"],
       "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
-    },
-    {
-      "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
-      "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
-      "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
-    },
-    {
-      "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
-      "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
-      "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
-    },
-    {
-      "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
-      "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
-      "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
-    },
-    {
-      "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
-      "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
-      "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
-    },
-    {
-      "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
-      "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
-      "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
-    },
-    {
-      "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
-      "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
-      "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
-    },
-    {
-      "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
-      "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
-      "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
-    },
-    {
-      "title": "구강악안면외과 윤주형 전공의, 국제학술지 논문 게재",
-      "description": "치과병원 구강악안면외과 (교수 박영욱, 김성곤, 권광준, 김민근, 오지현) 전공의 윤주형의 연구 논...",
-      "image": "https://www.gwnu.ac.kr/CrossEditor/binary/images/000010/20220615100506333_V07BYV51.png",
-      "writer": "대외협력실",
-      "date": "2022-06-15 00:00:00"
+      "date": "2022-06-15 00:00:00",
+      "type": "GWNU"
     }
   ]
 }
