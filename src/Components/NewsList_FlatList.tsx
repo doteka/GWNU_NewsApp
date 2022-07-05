@@ -10,19 +10,20 @@ import {
   Alert,
 } from "react-native";
 import Modal from "./Modal";
+import axios from "axios";
 
 const TITLE_MAX_LENGTH = 24;
 const DESC_MAX_LENGTH = 55;
-const NewsList_FlatList = ({ newsData, Filter }) => {
+const NewsList_FlatList = ({ newsData, setNewsData, Filter }) => {
   const [modalView, setModalView] = useState(false);
   const [newsView, setNewsView] = useState();
   const [news, setNews] = useState();
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setNews(newsData)
-    setLoading(false)
-  },[])
+    setNews(newsData);
+    setLoading(false);
+  }, []);
   const _EndReached = () => {
     console.log("AA");
   };
@@ -37,52 +38,58 @@ const NewsList_FlatList = ({ newsData, Filter }) => {
         />
       )}
       {!loading && (
-      <FlatList
-        data={newsData}
-        renderItem={(appNews) => {
-          if(Filter.includes(appNews.item.type) ) {
-            // console.log("통과")
-            return (
-              <Pressable
-                style={({ pressed }) => [
-                  { backgroundColor: pressed ? "#fff8a1" : "none" },
-                  Styled.newsBox
-                ]}
-                onPress={() => {
+        <FlatList
+          data={newsData}
+          renderItem={(appNews) => {
+            if (Filter.includes(appNews.item.type)) {
+              // console.log("통과")
+              return (
+                <Pressable
+                  style={({ pressed }) => [
+                    { backgroundColor: pressed ? "#fff8a1" : "none" },
+                    Styled.newsBox,
+                  ]}
+                  onPress={() => {
                     setModalView(true);
                     setNewsView(appNews.item);
-                }}
-              >
-                <Text style={Styled.newsTitle}>
-                  {appNews.item.title.length < TITLE_MAX_LENGTH
-                    ? `${appNews.item.title}`
-                    : `${
-                      appNews.item.title.substring(0, TITLE_MAX_LENGTH) + ".."
-                      }`}
-                </Text>
-                <Text style={Styled.newsDesc}>
-                  {appNews.item.description < DESC_MAX_LENGTH
-                    ? `${appNews.item.description}`
-                    : `${
-                      appNews.item.description.substring(0, DESC_MAX_LENGTH) +
-                        ".."
-                      }`}
-                </Text>
-              </Pressable>
-            )
-          } else {
-            console.log("통과못함")
-          }
-        }}
-        onEndReached={() => {
-          if(!modalView) {
-            Alert.alert("마지막 페이지입니다.")
-          }
-        }}
-        onEndReachedThreshold={0}
-        initialNumToRender={9}
-        style={[!modalView? {display: 'flex'} : {display: 'none'}]}
-      ></FlatList>
+                  }}
+                >
+                  <Text style={Styled.newsTitle}>
+                    {appNews.item.title.length < TITLE_MAX_LENGTH
+                      ? `${appNews.item.title}`
+                      : `${
+                          appNews.item.title.substring(0, TITLE_MAX_LENGTH) +
+                          ".."
+                        }`}
+                  </Text>
+                  <Text style={Styled.newsDesc}>
+                    {appNews.item.description < DESC_MAX_LENGTH
+                      ? `${appNews.item.description}`
+                      : `${
+                          appNews.item.description.substring(
+                            0,
+                            DESC_MAX_LENGTH
+                          ) + ".."
+                        }`}
+                  </Text>
+                </Pressable>
+              );
+            } else {
+              console.log("통과못함");
+            }
+          }}
+          onEndReached={() => {
+            if (!modalView) {
+              const addNews = require("../../Data.json");
+              console.log(addNews.items);
+              // setNewsData([...newsData, addNews.items]);
+              Alert.alert("마지막 페이지입니다.");
+            }
+          }}
+          onEndReachedThreshold={0}
+          initialNumToRender={9}
+          style={[!modalView ? { display: "flex" } : { display: "none" }]}
+        ></FlatList>
       )}
     </SafeAreaView>
   );
